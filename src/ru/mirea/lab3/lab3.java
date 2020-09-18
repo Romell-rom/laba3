@@ -17,6 +17,7 @@ public class lab3 {
         System.out.println("Длина окружности C радиуса R равна - " + circle.C(circle.getRadius()));
         System.out.println("Площадь S круга радиуса R равна  - " + circle.S(circle.getRadius()));*/
 
-
+/*Human human = new Human();
+System.out.println(human.toString());*/
     }
 }
