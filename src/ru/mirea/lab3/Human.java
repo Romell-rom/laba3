@@ -1,8 +1,7 @@
 package ru.mirea.lab3;
-import java.util.Arrays;
 public class Human {
     public class Hand {
-        private String length;
+         String length="Две";
         Hand(String length) {
             this.length = length;
         }
@@ -14,23 +13,17 @@ public class Human {
         }
     }
     public class Head {
-        private String size, hair, hairColor;
+         String size = "Big";
+          String  hairColor = "Blue";
         Head(String size, String hair, String hairColor) {
             this.size = size;
-            this.hair = hair;
             this.hairColor = hairColor;
-        }
-        public void setHair(String hair) {
-            this.hair = hair;
         }
         public void setHairColor(String hairColor) {
             this.hairColor = hairColor;
         }
         public void setSize(String size) {
             this.size = size;
-        }
-        public String getHair() {
-            return hair;
         }
         public String getHairColor() {
             return hairColor;
@@ -40,7 +33,7 @@ public class Human {
         }
     }
     public class Leg {
-        private int size;
+        int size =4;
         Leg(int size) {
             this.size = size;
         }
@@ -50,5 +43,10 @@ public class Human {
         public int getSize() {
             return size;
         }
+    }
+
+    @Override
+    public String toString() {
+        return "Human{}";
     }
 }
